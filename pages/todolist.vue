@@ -73,7 +73,7 @@ export default {
         { work: 'お台場に遊びに行く事。', selectedDays: 'Mon', checked: false },
       ],
       days: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sta'],
-      todoDays: '',
+      todoDays: 'Mon',
     }
   },
   methods: {
