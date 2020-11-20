@@ -78,6 +78,10 @@ export default {
   },
   methods: {
     handleTodoInput() {
+      if (!this.todoinput) {
+        alert('やることを入力してください。')
+        return
+      }
       if (!this.todoDays) {
         alert('曜日を選択してください。')
         return
