@@ -1,0 +1,38 @@
+.todo-wrapper {
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+.todo-title{
+    display: flex;
+}
+
+.todo-textfield {
+    display: flex;
+    padding-top: 1rem !important;
+    font-size: 2rem !important;
+    margin-left: 2rem;
+    width: 27rem;
+    
+}
+
+.todo-daysSelect{
+    padding-left: 2rem;
+    padding-top: 1rem !important;
+    width: 6rem;
+}
+
+.todo-inputButton:hover::before {
+  cursor: pointer !important;
+}
+
+
+.todo-list {
+    cursor: pointer; 
+}
+
+.todo-list:hover  {
+    background-color: darkgrey;
+}
+
